@@ -1,0 +1,50 @@
+ .announcement-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: -1px 60px; /* Increased padding for the announcement (adjust as needed) */
+    color: #102C57;
+    margin: -70px auto 10px;
+    max-width: 800px;
+  }
+  .pengumuman-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: -1000px 60px;   /* Increased padding for the announcement (adjust as needed) */
+  color: #102C57;
+  margin: 90px auto 10px;
+  max-width: 5000px; /* Sesuaikan nilai max-width sesuai kebutuhan */
+  width: 100%;
+  max-width: 5000px; /* Sesuaikan nilai max-width sesuai kebutuhan */
+  width: 100%;
+  }
+  .header-container {
+      background-color: #102C57;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .form-group label {
+      font-weight: 600;
+    }
+    .form-group input[type="submit"] {
+  font-weight: bold;
+  background-color: #102C57; /* Sesuaikan warna latar belakang dengan warna lainnya */
+  color: #fff; /* Sesuaikan warna teks dengan warna kontras */
+  border: none; /* Hilangkan border jika tidak diperlukan */
+  cursor: pointer; /* Ganti kursor menjadi tangan saat diarahkan ke tombol */
+}
+.pengumuman-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 30px; /* Sesuaikan padding sesuai kebutuhan */
+  margin: 90px auto 50px -70px; /* Sesuaikan nilai margin sesuai kebutuhan */
+  max-width: 500px;
+  width: 150%;
+}
+.form-group input[type="submit"] {
+  font-weight: bold;
+  background-color: #102C57; /* Sesuaikan warna latar belakang dengan warna lainnya */
+  color: #fff; /* Sesuaikan warna teks dengan warna kontras */
+  border: none; /* Hilangkan border jika tidak diperlukan */
+  cursor: pointer; /* Ganti kursor menjadi tangan saat diarahkan ke tombol */
+  border-radius: 10px; /* Tambahkan border-radius untuk membuat tombol rounded */
+  padding: 8px 16px; /* Sesuaikan padding sesuai kebutuhan */
+}

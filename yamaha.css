@@ -1,0 +1,157 @@
+ body {
+      font-family: 'Poppins';
+    }
+    p.sarat-ketentuan {
+      position: absolute;
+      top: -20px; /* Sesuaikan nilai top sesuai kebutuhan */
+      left: 92px; /* Sesuaikan nilai left sesuai kebutuhan */
+      font-size: 12px; /* Sesuaikan ukuran teks sesuai kebutuhan */
+    }
+   /* Add CSS styling for spacing */
+   .announcement-container {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .announcement-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: -1px 60px; /* Increased padding for the announcement (adjust as needed) */
+    color: #102C57;
+    margin: -70px auto 10px;
+    max-width: 800px;
+  }
+
+  .announcement-text {
+      margin: 0;
+      line-height: 1;
+      font-size: 12px; /* Adjusted font size */
+    }
+
+    .additional-text {
+      font-weight: bold;
+      font-size: 14px; /* Adjusted font size */
+      margin-top: 5px; /* Adjusted margin-top */
+    }
+     /* Add CSS styling for spacing */
+     .form-container {
+      text-align: left; /* Mengubah align teks menjadi kiri */
+      margin: 20px auto 0;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header-container {
+      background-color: #102C57;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    .form-text {
+      color: #fff;
+      font-weight: bold;
+      margin: 0;
+    }
+    .form-group label {
+      font-weight: 700;
+    }
+    
+    .form-group {
+      margin-bottom: 0px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: -12px;
+    }
+    
+    .form-group input[type="submit"] {
+      font-weight: bold;
+    }
+    
+    .form-group input[type="text"],
+    .form-group textarea,
+    .form-group input[type="number"],
+    .form-group select,
+    .form-group.date-input input[type="text"],
+    .form-group input[type="submit"] {
+      border: none;
+      border-bottom: 1px solid #000;
+      border-radius: 0;
+      width: calc(100% - 12px); /* Mengurangi lebar agar sesuai dengan border */
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .form-group select {
+      border: 1px solid #000;
+      border-radius: 10px;
+    }
+    
+    .form-group.date-input input[type="text"] {
+      border-radius: 10px;
+    }
+    
+    /* Add a media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  .announcement-wrapper {
+    padding: 10px; /* Adjusted padding for smaller screens */
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}
+.pengumuman-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: -1000px 60px;   /* Increased padding for the announcement (adjust as needed) */
+  color: #102C57;
+  margin: 90px auto 10px;
+  max-width: 5000px; /* Sesuaikan nilai max-width sesuai kebutuhan */
+  width: 100%;
+  max-width: 5000px; /* Sesuaikan nilai max-width sesuai kebutuhan */
+  width: 100%;
+  }
+.pengumuman-text {
+  font-size: 12px; /* Adjusted font size */
+  margin: 0;
+  text-align: center; /* Center-align the text */
+}
+.date-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.date-input-wrapper i {
+    margin-right: 10px;
+}
+.date-input {
+    position: relative;
+}
+
+.date-input i {
+    position: absolute;
+    top: 27px; /* Sesuaikan posisi vertikal ikon */
+    right: 6.5px; /* Sesuaikan posisi horizontal ikon */
+    color: #555; /* Sesuaikan warna ikon sesuai kebutuhan */
+    cursor: pointer;
+}
+.form-group input[type="submit"] {
+  font-weight: bold;
+  background-color: #102C57; /* Sesuaikan warna latar belakang dengan warna lainnya */
+  color: #fff; /* Sesuaikan warna teks dengan warna kontras */
+  border: none; /* Hilangkan border jika tidak diperlukan */
+  cursor: pointer; /* Ganti kursor menjadi tangan saat diarahkan ke tombol */
+  border-radius: 15px; /* Tambahkan border-radius untuk membuat tombol rounded */
+  padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+/* Pilihan tambahan jika diperlukan */
+.form-group input[type="submit"]:hover {
+  background-color: #102C57; /* Sesuaikan warna background hover sesuai kebutuhan */
+  color: #fff; /* Sesuaikan warna teks hover sesuai kebutuhan */
+}
